@@ -9,5 +9,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+       // findViewById(R.id.btn_test).getBackground().setAlpha(178);
+       // findViewById(R.id.btn_test).setAlpha(0.5f);
     }
 }

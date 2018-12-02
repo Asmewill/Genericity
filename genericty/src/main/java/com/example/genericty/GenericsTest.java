@@ -5,41 +5,41 @@ import java.util.List;
 
 /***
  *
- * ·ºÐÍ²©¿Í·ÖÎö
+ * ï¿½ï¿½ï¿½Í²ï¿½ï¿½Í·ï¿½ï¿½ï¿½
  * https://blog.csdn.net/s10461/article/details/53941091
  */
 public class GenericsTest {
     public static void main(String[] args){
         /***
-         *      1.  Ò»¸öÀõ×Ó
-         Ò»¸ö±»¾ÙÁËÎÞÊý´ÎµÄÀý×Ó£º
+         *      1.  Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+         Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îµï¿½ï¿½ï¿½ï¿½Ó£ï¿½
          ava.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.String
 //        List arrayList = new ArrayList();
 //        arrayList.add("aaaa");
 //        arrayList.add(100);
 //        for(int i = 0; i< arrayList.size();i++){
 //            String item = (String)arrayList.get(i);
-//            System.out.println("·ºÐÍ²âÊÔ---item = " + item);
+//            System.out.println("ï¿½ï¿½ï¿½Í²ï¿½ï¿½ï¿½---item = " + item);
 //        }
 
         /***
-         * 2. ÌØÐÔ
-         ·ºÐÍÖ»ÔÚ±àÒë½×¶ÎÓÐÐ§¡£¿´ÏÂÃæµÄ´úÂë£º
+         * 2. ï¿½ï¿½ï¿½ï¿½
+         ï¿½ï¿½ï¿½ï¿½Ö»ï¿½Ú±ï¿½ï¿½ï¿½×¶ï¿½ï¿½ï¿½Ð§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½ë£º
          */
 
         List<String> stringList=new ArrayList<>();
         List<Integer> integerList=new ArrayList<>();
         if(stringList.getClass().equals(integerList.getClass())){
-            //Èç¹ûÊä³öÂÒÂë£¬ÐèÒª½«ÎÄ¼þÉèÖÃ³ÉGB2312±àÂë¸ñÊ½
-            System.out.println("ÀàÐÍÏàÍ¬--->Ö¤Ã÷ÁË·ºÐÍÖ»ÊÇÔÚ±àÒë½×¶ÎÓÐÐ§,±àÒë³É×Ö½ÚÂë¾ÍÎÞÐ§ÁË");
+            //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë£¬ï¿½ï¿½Òªï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½Ã³ï¿½GB2312ï¿½ï¿½ï¿½ï¿½ï¿½Ê½
+            System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¬--->Ö¤ï¿½ï¿½ï¿½Ë·ï¿½ï¿½ï¿½Ö»ï¿½ï¿½ï¿½Ú±ï¿½ï¿½ï¿½×¶ï¿½ï¿½ï¿½Ð§,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð§ï¿½ï¿½");
         }
         /****
-         * 3.1·ºÐÍÀà
-         * ·ºÐÍÀàÐÍÓÃÓÚÀàµÄ¶¨ÒåÖÐ£¬±»³ÆÎª·ºÐÍÀà¡£
-         * Í¨¹ý·ºÐÍ¿ÉÒÔÍê³É¶ÔÒ»×éÀàµÄ²Ù×÷¶ÔÍâ¿ª·ÅÏàÍ¬µÄ½Ó¿Ú¡£×îµäÐÍµÄ¾ÍÊÇ¸÷ÖÖÈÝÆ÷Àà£¬
-         * Èç£ºList¡¢Set¡¢Map¡£
-         * ·ºÐÍµÄÀàÐÍ²ÎÊýÖ»ÄÜÊÇÀàÀàÐÍ£¨°üÀ¨×Ô¶¨ÒåÀà£©£¬²»ÄÜÊÇ¼òµ¥ÀàÐÍ
-         * ´«ÈëµÄÊµ²ÎÀàÐÍÐèÓë·ºÐÍµÄÀàÐÍ²ÎÊýÀàÐÍÏàÍ¬£¬¼´ÎªInteger.
+         * 3.1ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+         * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½ï¿½Ð£ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½à¡£
+         * Í¨ï¿½ï¿½ï¿½ï¿½ï¿½Í¿ï¿½ï¿½ï¿½ï¿½ï¿½É¶ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Ä²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½â¿ªï¿½ï¿½ï¿½ï¿½Í¬ï¿½Ä½Ó¿Ú¡ï¿½ï¿½ï¿½ï¿½ï¿½ÍµÄ¾ï¿½ï¿½Ç¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½à£¬
+         * ï¿½ç£ºListï¿½ï¿½Setï¿½ï¿½Mapï¿½ï¿½
+         * ï¿½ï¿½ï¿½Íµï¿½ï¿½ï¿½ï¿½Í²ï¿½ï¿½ï¿½Ö»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½à£©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¼ï¿½ï¿½ï¿½ï¿½ï¿½
+         * ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë·ºï¿½Íµï¿½ï¿½ï¿½ï¿½Í²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¬ï¿½ï¿½ï¿½ï¿½ÎªInteger.
          */
         Generics<Integer> integerGenerics=new Generics<>(123456);
         Generics<String>  stringGenerics=new Generics<>("one_two_three_four_five_six");
@@ -47,10 +47,10 @@ public class GenericsTest {
         System.out.println("key is "+stringGenerics.getKey());
 
         /****
-         * 3.2·ºÐÍÀà
-         * ¶¨ÒåµÄ·ºÐÍÀà£¬¾ÍÒ»¶¨Òª´«Èë·ºÐÍÀàÐÍÊµ²ÎÃ´£¿²¢²»ÊÇÕâÑù£¬ÔÚÊ¹ÓÃ·ºÐÍµÄÊ±ºòÈç¹û´«Èë·ºÐÍÊµ²Î£¬
-         * Ôò»á¸ù¾Ý´«ÈëµÄ·ºÐÍÊµ²Î×öÏàÓ¦µÄÏÞÖÆ£¬´ËÊ±·ºÐÍ²Å»áÆðµ½±¾Ó¦Æðµ½µÄÏÞÖÆ×÷ÓÃ¡£
-         * Èç¹û²»´«Èë·ºÐÍÀàÐÍÊµ²ÎµÄ»°£¬ÔÚ·ºÐÍÀàÖÐÊ¹ÓÃ·ºÐÍµÄ·½·¨»ò³ÉÔ±±äÁ¿¶¨ÒåµÄÀàÐÍ¿ÉÒÔÎªÈÎºÎµÄÀàÐÍ¡£
+         * 3.2ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+         * ï¿½ï¿½ï¿½ï¿½Ä·ï¿½ï¿½ï¿½ï¿½à£¬ï¿½ï¿½Ò»ï¿½ï¿½Òªï¿½ï¿½ï¿½ë·ºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½Ã´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½Ã·ï¿½ï¿½Íµï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë·ºï¿½ï¿½Êµï¿½Î£ï¿½
+         * ï¿½ï¿½ï¿½ï¿½ï¿½Ý´ï¿½ï¿½ï¿½Ä·ï¿½ï¿½ï¿½Êµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½ï¿½Æ£ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½Í²Å»ï¿½ï¿½ðµ½±ï¿½Ó¦ï¿½ðµ½µï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¡ï¿½
+         * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë·ºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½ÎµÄ»ï¿½ï¿½ï¿½ï¿½Ú·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½Ã·ï¿½ï¿½ÍµÄ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¿ï¿½ï¿½ï¿½Îªï¿½ÎºÎµï¿½ï¿½ï¿½ï¿½Í¡ï¿½
          */
         Generics generics1=new Generics(111111);
         Generics generics2=new Generics("one_two_three_four_five_six");
@@ -61,13 +61,13 @@ public class GenericsTest {
         System.out.println("key is "+generics3.getKey());
         System.out.println("key is "+generics4.getKey());
         /****
-         * 4. ·ºÐÍ½Ó¿Ú
-         ·ºÐÍ½Ó¿ÚÓë·ºÐÍÀàµÄ¶¨Òå¼°Ê¹ÓÃ»ù±¾ÏàÍ¬¡£·ºÐÍ½Ó¿Ú³£±»ÓÃÔÚ¸÷ÖÖÀàµÄÉú²úÆ÷ÖÐ£¬¿ÉÒÔ¿´Ò»¸öÀý×Ó£º
-         Ïê¼û£ºFruitGenerator
+         * 4. ï¿½ï¿½ï¿½Í½Ó¿ï¿½
+         ï¿½ï¿½ï¿½Í½Ó¿ï¿½ï¿½ë·ºï¿½ï¿½ï¿½ï¿½Ä¶ï¿½ï¿½å¼°Ê¹ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½Í¬ï¿½ï¿½ï¿½ï¿½ï¿½Í½Ó¿Ú³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð£ï¿½ï¿½ï¿½ï¿½Ô¿ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½Ó£ï¿½
+         ï¿½ï¿½ï¿½ï¿½ï¿½FruitGenerator
          */
 
         /******
-         * 5.·ºÐÍÍ¨Åä·û
+         * 5.ï¿½ï¿½ï¿½ï¿½Í¨ï¿½ï¿½ï¿½
          */
         Generics<Integer> integerG=new Generics<>(345);
         Generics<Float>  numberG=new Generics<>(678f);
@@ -75,16 +75,16 @@ public class GenericsTest {
         showKeyValue(numberG);
 
         /****
-         * 6.·ºÐÍ·½·¨
-         *·ºÐÍÀà£¬ÊÇÔÚÊµÀý»¯ÀàµÄÊ±ºòÖ¸Ã÷·ºÐÍµÄ¾ßÌåÀàÐÍ£»·ºÐÍ·½·¨£¬ÊÇÔÚµ÷ÓÃ·½·¨µÄÊ±ºòÖ¸Ã÷·ºÐÍµÄ¾ßÌåÀàÐÍ
-         *Ïê¼ûFruitGenerator
+         * 6.ï¿½ï¿½ï¿½Í·ï¿½ï¿½ï¿½
+         *ï¿½ï¿½ï¿½ï¿½ï¿½à£¬ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ÍµÄ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í£ï¿½ï¿½ï¿½ï¿½Í·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½ï¿½Ã·ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ÍµÄ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+         *ï¿½ï¿½ï¿½FruitGenerator
          */
         /**
-         * Õâ²ÅÊÇÒ»¸öÕæÕýµÄ·ºÐÍ·½·¨¡£
-         * Ê×ÏÈÔÚpublicÓë·µ»ØÖµÖ®¼äµÄ<T>±Ø²»¿ÉÉÙ£¬Õâ±íÃ÷ÕâÊÇÒ»¸ö·ºÐÍ·½·¨£¬²¢ÇÒÉùÃ÷ÁËÒ»¸ö·ºÐÍT
-         * Õâ¸öT¿ÉÒÔ³öÏÖÔÚÕâ¸ö·ºÐÍ·½·¨µÄÈÎÒâÎ»ÖÃ.
-         * ·ºÐÍµÄÊýÁ¿Ò²¿ÉÒÔÎªÈÎÒâ¶à¸ö
-         *    Èç£ºpublic <T,K> K showKeyName(Generic<T> container){
+         * ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä·ï¿½ï¿½Í·ï¿½ï¿½ï¿½ï¿½ï¿½
+         * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½publicï¿½ë·µï¿½ï¿½ÖµÖ®ï¿½ï¿½ï¿½<T>ï¿½Ø²ï¿½ï¿½ï¿½ï¿½Ù£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½Í·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½T
+         * ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½Ô³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½.
+         * ï¿½ï¿½ï¿½Íµï¿½ï¿½ï¿½ï¿½ï¿½Ò²ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+         *    ï¿½ç£ºpublic <T,K> K showKeyName(Generic<T> container){
          *        ...
          *        }
          */
@@ -92,10 +92,10 @@ public class GenericsTest {
 
         /****
          *
-         * 7.ÔÚÊ¹ÓÃ·ºÐÍµÄÊ±ºò£¬
-         * ÎÒÃÇ»¹¿ÉÒÔÎª´«ÈëµÄ·ºÐÍÀàÐÍÊµ²Î½øÐÐÉÏÏÂ±ß½çµÄÏÞÖÆ£¬
-         * Èç£ºÀàÐÍÊµ²ÎÖ»×¼´«ÈëÄ³ÖÖÀàÐÍµÄ¸¸Àà»òÄ³ÖÖÀàÐÍµÄ×ÓÀà¡£
-         * ·ºÐÍÉÏÏÂ±ß½ç
+         * 7.ï¿½ï¿½Ê¹ï¿½Ã·ï¿½ï¿½Íµï¿½Ê±ï¿½ï¿½
+         * ï¿½ï¿½ï¿½Ç»ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½Ä·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½Î½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â±ß½ï¿½ï¿½ï¿½ï¿½ï¿½Æ£ï¿½
+         * ï¿½ç£ºï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½Ö»×¼ï¿½ï¿½ï¿½ï¿½Ä³ï¿½ï¿½ï¿½ï¿½ï¿½ÍµÄ¸ï¿½ï¿½ï¿½ï¿½Ä³ï¿½ï¿½ï¿½ï¿½ï¿½Íµï¿½ï¿½ï¿½ï¿½à¡£
+         * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â±ß½ï¿½
          *
          */
      //   Generic<String> stringGeneric=new Generic<>("1111");
