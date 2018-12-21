@@ -8,10 +8,13 @@
     android:orientation="vertical"
     android:gravity="center"
     android:background="#ffffff">
-
-
-
+    <ImageView
+        android:layout_width="290dp"
+        android:layout_height="290dp"
+        android:src="@mipmap/xml_demo"
+        />
     <Button
+        android:layout_marginTop="10dp"
         android:id="@+id/btn_sax"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
