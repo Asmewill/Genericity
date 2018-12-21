@@ -11,21 +11,32 @@
 
 
     <Button
-        android:id="@+id/btn_service"
+        android:id="@+id/btn_start_service"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:gravity="center"
-        android:text="ServiceDemo"
-        android:textAllCaps="false"
+        android:text="Start Service"
         />
     <Button
-        android:id="@+id/btn_xml"
+        android:id="@+id/btn_stop_service"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:gravity="center"
-        android:text="XmlDemo"
-        android:textAllCaps="false"
+        android:text="Stop Service"
         />
 
-
+    <Button
+        android:id="@+id/btn_bind_service"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="bind Service"
+        />
+    <Button
+        android:id="@+id/btn_unbind_service"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="unbind Service"
+        />
 </LinearLayout>

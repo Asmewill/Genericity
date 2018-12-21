@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">GenericityDemo</string>
+    <string name="title_activity_xml_parse_demo">XmlParseDemo</string>
 </resources>

@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service android:name=".SimpleService" />
+
+        <activity
+            android:name=".XmlParseDemoActivity"
+            android:label="@string/title_activity_xml_parse_demo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ServiceDemoActivity"></activity>
     </application>
 
 </manifest>

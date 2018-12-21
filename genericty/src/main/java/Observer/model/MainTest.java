@@ -11,8 +11,6 @@ public class MainTest {
         User2 user2=new User2();
         server.registerObserver(user1);
         server.registerObserver(user2);
-        server.notifyObservers();
+        server.operation();
     }
-
-
 }
