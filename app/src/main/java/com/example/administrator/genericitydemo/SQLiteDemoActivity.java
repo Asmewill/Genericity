@@ -17,6 +17,10 @@ import com.example.administrator.genericitydemo.utils.OrderDao;
 
 import java.util.List;
 
+/***
+ * https://www.jianshu.com/p/5c33be6ce89d
+ */
+
 public class SQLiteDemoActivity extends AppCompatActivity {
     private static final String TAG = "SQLiteDemoActivity";
 

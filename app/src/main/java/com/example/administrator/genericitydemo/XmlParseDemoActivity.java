@@ -11,6 +11,10 @@ import com.example.administrator.genericitydemo.utils.XmlUtils;
 
 import java.util.List;
 
+/***
+ * https://www.jianshu.com/p/6b64f0c06201
+ */
+
 public class XmlParseDemoActivity extends AppCompatActivity implements View.OnClickListener{
     Button btn_pull;
     Button btn_sax;
