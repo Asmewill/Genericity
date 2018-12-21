@@ -155,7 +155,7 @@ public class XmlUtils {
             if ("name".equals(qName)) {
                 student.setName(tempString);
             } else if ("nickName".equals(qName)) {
-                student.setNickName(qName);
+                student.setNickName(tempString);
             }
             super.endElement(uri, localName, qName);
         }

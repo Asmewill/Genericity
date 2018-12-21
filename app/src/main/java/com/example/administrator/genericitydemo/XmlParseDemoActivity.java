@@ -37,14 +37,6 @@ public class XmlParseDemoActivity extends AppCompatActivity implements View.OnCl
     @Override
     public void onClick(View v) {
         switch (v.getId()){
-            case R.id.btn_pull:
-                try {
-                    students = xmlUtils.pull2xml(getResources().getAssets().open("student.xml"));
-                    tv_content.setText(students.toString());
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-                break;
             case R.id.btn_sax:
                 try {
                     students = xmlUtils.sax2xml(getResources().getAssets().open("student.xml"));
@@ -56,6 +48,14 @@ public class XmlParseDemoActivity extends AppCompatActivity implements View.OnCl
             case R.id.btn_dom:
                 try {
                     students = xmlUtils.dom2xml(getResources().getAssets().open("student.xml"));
+                    tv_content.setText(students.toString());
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+                break;
+            case R.id.btn_pull:
+                try {
+                    students = xmlUtils.pull2xml(getResources().getAssets().open("student.xml"));
                     tv_content.setText(students.toString());
                 } catch (Exception e) {
                     e.printStackTrace();
