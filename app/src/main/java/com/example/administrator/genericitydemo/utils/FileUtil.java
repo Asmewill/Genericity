@@ -1,4 +1,4 @@
-package com.example.administrator.genericitydemo;
+package com.example.administrator.genericitydemo.utils;
 
 import android.content.Context;
 

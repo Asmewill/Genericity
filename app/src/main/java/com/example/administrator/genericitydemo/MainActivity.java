@@ -9,6 +9,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     Button btn_service;
     Button btn_xml;
+    Button btn_sqlite;
 
 
     @Override
@@ -18,8 +19,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
   
         btn_service=findViewById(R.id.btn_service);
         btn_xml=findViewById(R.id.btn_xml);
+        btn_sqlite=findViewById(R.id.btn_sqlite);
         btn_service.setOnClickListener(this);
         btn_xml.setOnClickListener(this);
+        btn_sqlite.setOnClickListener(this);
     }
 
     @Override
@@ -30,6 +33,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_xml:
                 startActivity(new Intent(this,XmlParseDemoActivity.class));
+                break;
+            case R.id.btn_sqlite:
+                startActivity(new Intent(this,SQLiteDemoActivity.class));
                 break;
 
         }

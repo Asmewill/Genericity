@@ -23,7 +23,8 @@
             android:name=".XmlParseDemoActivity"
             android:label="@string/title_activity_xml_parse_demo"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ServiceDemoActivity"></activity>
+        <activity android:name=".ServiceDemoActivity" />
+        <activity android:name=".SQLiteDemoActivity"></activity>
     </application>
 
 </manifest>
