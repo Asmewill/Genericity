@@ -24,7 +24,12 @@
             android:label="@string/title_activity_xml_parse_demo"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".ServiceDemoActivity" />
-        <activity android:name=".SQLiteDemoActivity"
+        <activity
+            android:name=".SQLiteDemoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HandlerThreadActivity"
+            android:label="@string/title_activity_handler_thread"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

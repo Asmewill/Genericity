@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_sqlite:
                 startActivity(new Intent(this,SQLiteDemoActivity.class));
                 break;
-
         }
 
     }
