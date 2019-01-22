@@ -1,4 +1,4 @@
-package com.example.administrator.genericitydemo;
+package com.example.administrator.genericitydemo.activity;
 
 import android.content.ComponentName;
 import android.content.Intent;
@@ -8,6 +8,8 @@ import android.os.IBinder;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+
+import com.example.administrator.genericitydemo.R;
 
 public class ServiceDemoActivity extends AppCompatActivity implements View.OnClickListener{
     Button btn_start_service;

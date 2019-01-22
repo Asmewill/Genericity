@@ -1,4 +1,4 @@
-package com.example.administrator.genericitydemo;
+package com.example.administrator.genericitydemo.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -11,6 +11,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.administrator.genericitydemo.R;
 import com.example.administrator.genericitydemo.adapter.OrderListAdapter;
 import com.example.administrator.genericitydemo.bean.Order;
 import com.example.administrator.genericitydemo.utils.OrderDao;

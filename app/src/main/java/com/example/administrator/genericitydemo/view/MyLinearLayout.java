@@ -1,4 +1,4 @@
-package com.example.administrator.genericitydemo;
+package com.example.administrator.genericitydemo.view;
 
 import android.content.Context;
 import android.support.annotation.Nullable;

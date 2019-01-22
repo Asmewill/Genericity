@@ -1,4 +1,4 @@
-package com.example.administrator.genericitydemo;
+package com.example.administrator.genericitydemo.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,23 +6,27 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.administrator.genericitydemo.R;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     Button btn_service;
     Button btn_xml;
     Button btn_sqlite;
+    Button btn_realm;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-  
         btn_service=findViewById(R.id.btn_service);
         btn_xml=findViewById(R.id.btn_xml);
         btn_sqlite=findViewById(R.id.btn_sqlite);
+        btn_realm=findViewById(R.id.btn_realm);
         btn_service.setOnClickListener(this);
         btn_xml.setOnClickListener(this);
         btn_sqlite.setOnClickListener(this);
+        btn_realm.setOnClickListener(this);
     }
 
     @Override
@@ -36,6 +40,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_sqlite:
                 startActivity(new Intent(this,SQLiteDemoActivity.class));
+                break;
+            case R.id.btn_realm:
+                startActivity(new Intent(this,RealmActivity.class));
                 break;
         }
 

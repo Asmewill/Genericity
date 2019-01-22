@@ -14,8 +14,10 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.1.4'
-        
-
+        ////In my case,it is cause by Realm library,after I update it to latest version(5.1.0 so far) of Realm,the problem solved!
+        //Exception:Configuration 'compile' is obsolete and has been replaced with 'implementati
+        classpath "io.realm:realm-gradle-plugin:5.9.0"
+        classpath 'com.google.gms:google-services:3.2.1'
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
@@ -23,8 +25,16 @@ buildscript {
 
 allprojects {
     repositories {
+        maven{
+            url 'https://maven.aliyun.com/repository/jcenter'
+        }
+        maven{
+            url 'https://maven.aliyun.com/repository/google'
+        }
         google()
         jcenter()
+        maven { url "https://jitpack.io" }
+
     }
 }
 

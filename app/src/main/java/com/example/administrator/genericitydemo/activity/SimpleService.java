@@ -1,4 +1,4 @@
-package com.example.administrator.genericitydemo;
+package com.example.administrator.genericitydemo.activity;
 
 import android.app.Service;
 import android.content.Intent;
