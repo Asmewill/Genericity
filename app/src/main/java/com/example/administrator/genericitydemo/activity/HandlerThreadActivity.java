@@ -1,6 +1,7 @@
 package com.example.administrator.genericitydemo.activity;
 
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -30,6 +31,16 @@ public class HandlerThreadActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+
+        new Handler().sendEmptyMessageDelayed(1,100);
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+
+            }
+        },1000);
+
     }
 
 }

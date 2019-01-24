@@ -6,10 +6,10 @@ package com.example.genericty;
 
 import java.util.Random;
 
-/**å½“å®ç°æ³›å‹æ¥å£çš„ç±»ï¼Œæœªä¼ å…¥æ³›å‹å®å‚æ—¶ï¼š
- * ä¸æ³›å‹ç±»çš„å®šä¹‰ç›¸åŒï¼Œåœ¨å£°æ˜ç±»çš„æ—¶å€™ï¼Œéœ€å°†æ³›å‹çš„å£°æ˜ä¹Ÿä¸€èµ·åŠ åˆ°ç±»ä¸­
- * å³ï¼šclass FruitGenerator<T> implements Generator<T>{
- * å¦‚æœä¸å£°æ˜æ³›å‹ï¼Œå¦‚ï¼šclass FruitGenerator implements Generator<T>ï¼Œç¼–è¯‘å™¨ä¼šæŠ¥é”™ï¼š"Unknown class"
+/**µ±ÊµÏÖ·ºĞÍ½Ó¿ÚµÄÀà£¬Î´´«Èë·ºĞÍÊµ²ÎÊ±£º
+ * Óë·ºĞÍÀàµÄ¶¨ÒåÏàÍ¬£¬ÔÚÉùÃ÷ÀàµÄÊ±ºò£¬Ğè½«·ºĞÍµÄÉùÃ÷Ò²Ò»Æğ¼Óµ½ÀàÖĞ
+ * ¼´£ºclass FruitGenerator<T> implements Generator<T>{
+ * Èç¹û²»ÉùÃ÷·ºĞÍ£¬Èç£ºclass FruitGenerator implements Generator<T>£¬±àÒëÆ÷»á±¨´í£º"Unknown class"
  */
 //public class FruitGenerator<T> implements Generator<T> {
 //    @Override
