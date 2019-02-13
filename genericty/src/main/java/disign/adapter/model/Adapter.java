@@ -3,7 +3,7 @@ package disign.adapter.model;
 /**
  * Created by jian.shui on 2019/1/23
  */
-public abstract class AdapterThree implements A {
+public abstract class Adapter implements A {
     @Override
     public void a() {
 

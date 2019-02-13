@@ -3,7 +3,7 @@ package disign.adapter.model;
 /**
  * Created by jian.shui on 2019/1/23
  */
-public class MyAdapter extends AdapterThree{
+public class MyAdapter extends Adapter {
 
     @Override
     public void a() {
