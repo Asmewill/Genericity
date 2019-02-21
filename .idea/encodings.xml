@@ -1,18 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/genericty/src/main/java/com/example/genericty/FruitGenerator.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/genericty/src/main/java/com/example/genericty/Generics.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/genericty/src/main/java/com/example/genericty/GenericsTest.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/genericty/src/main/java/decorate/model/Bread.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/genericty/src/main/java/decorate/model/Cream.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/genericty/src/main/java/decorate/model/MainTest.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/genericty/src/main/java/decorate/model/Vegetable.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/genericty/src/main/java/design/model/SingleTon.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/genericty/src/main/java/design/model/SingleTonFive.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/genericty/src/main/java/design/model/SingleTonFour.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/genericty/src/main/java/design/model/SingleTonThree.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/genericty/src/main/java/design/model/SingleTonTwo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/com/example/genericty/FruitGenerator.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/com/example/genericty/Generics.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/com/example/genericty/GenericsTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/adapter/model/MainTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/builder/model/MainTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/chain/model/CustomInterceptor.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/chain/model/DepartmentHeader.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/chain/model/GroupLeader.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/chain/model/MainTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/chain/model/Manager.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/command/model/Invoker.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/command/model/MainTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/command/model/Receiver.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/command/model/ShutDownCommand.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/decorate/model/Bread.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/decorate/model/Cream.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/decorate/model/MainTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/decorate/model/Vegetable.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/memo/model/Game.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/memo/model/MainTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/prototype/model/Card.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/prototype/model/MainTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/proxy/model/MonitorUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/proxy/model/ProxyTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/proxy/model/StuInvocationHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/proxy/model/Student.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/share/model/MainTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/share/model/ShareBike.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/share/model/ShareBikeFactory.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/single/model/SingleTon.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/single/model/SingleTonFive.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/single/model/SingleTonFour.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/single/model/SingleTonThree.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/single/model/SingleTonTwo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/template/model/MainTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/template/model/Postman.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/template/model/PostmanA.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/disign/template/model/PostmanB.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/thread/pool/MainTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/genericty/src/main/java/thread/pool/MyRunnable.java" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
