@@ -14,4 +14,5 @@
     <string name="strSuccessSql">执行SQL语句成功</string>
     <string name="strUnableSql">Sorry，还没处理select语句</string>
     <string name="title_activity_handler_thread">HandlerThreadActivity</string>
+    <string name="title_activity_circle_progress_bar">CircleProgressBarActivity</string>
 </resources>

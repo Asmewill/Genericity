@@ -9,4 +9,7 @@
     <color name="hover_gray_color">#dadada</color>
     <color name="edittext_color">#625e59</color>
     <color name="edittext_hint_color">#ababab</color>
+    <color name="borrow_bar_0">#e8e8e8</color>
+    <color name="borrow_bar_min">#f4ba8a</color>
+    <color name="borrow_bar_max">#b4101b</color>
 </resources>
