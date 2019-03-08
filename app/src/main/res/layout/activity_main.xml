@@ -36,11 +36,17 @@
         android:textAllCaps="false"
         android:text="Realm使用Demo"/>
     <Button
-        android:id="@+id/btn_circle_progress_bar"
+    android:id="@+id/btn_circle_progress_bar"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:textAllCaps="false"
+    android:text="CircleProgressBar使用Demo"/>
+    <Button
+        android:id="@+id/btn_flowlayout"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:textAllCaps="false"
-        android:text="Realm使用Demo"/>
+        android:text="FlowLayoutDemo"/>
 </LinearLayout>
 
 

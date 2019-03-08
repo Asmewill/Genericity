@@ -12,4 +12,8 @@
     <color name="borrow_bar_0">#e8e8e8</color>
     <color name="borrow_bar_min">#f4ba8a</color>
     <color name="borrow_bar_max">#b4101b</color>
+    <color name="hint_color_line">#9ddd</color>
+    <color name="white">#ffffff</color>
+    <color name="textcolor_content">#666666</color>
+    <color name="shop_main_color" >#ff2a31</color>
 </resources>
