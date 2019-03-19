@@ -8,17 +8,24 @@ import android.widget.Button;
 
 import com.example.administrator.genericitydemo.R;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     Button btn_service;
     Button btn_xml;
     Button btn_sqlite;
     Button btn_realm;
-
+    @BindView(R.id.btn_circle_progress_bar)
+    Button btn_circle_progress_bar;
+    @BindView(R.id.btn_flowlayout)
+    Button btn_flowlayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ButterKnife.bind(this);
         btn_service=findViewById(R.id.btn_service);
         btn_xml=findViewById(R.id.btn_xml);
         btn_sqlite=findViewById(R.id.btn_sqlite);
@@ -27,6 +34,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_xml.setOnClickListener(this);
         btn_sqlite.setOnClickListener(this);
         btn_realm.setOnClickListener(this);
+        btn_circle_progress_bar.setOnClickListener(this);
+        btn_flowlayout.setOnClickListener(this);
     }
 
     @Override
@@ -43,6 +52,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_realm:
                 startActivity(new Intent(this,RealmActivity.class));
+                break;
+            case R.id.btn_circle_progress_bar:
+                startActivity(new Intent(this,CircleProgressBarActivity.class));
+                break;
+            case R.id.btn_flowlayout:
+                startActivity(new Intent(this,FlowLayoutActivity.class));
                 break;
         }
 

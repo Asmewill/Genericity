@@ -32,7 +32,15 @@
             android:name=".activity.HandlerThreadActivity"
             android:label="@string/title_activity_handler_thread"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".activity.RealmActivity"></activity>
+        <activity android:name=".activity.RealmActivity" />
+        <activity
+            android:name=".activity.CircleProgressBarActivity"
+            android:label="@string/title_activity_circle_progress_bar"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".activity.FlowLayoutActivity"
+            android:label="@string/title_activity_circle_progress_bar"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
