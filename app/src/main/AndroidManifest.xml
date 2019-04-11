@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.administrator.genericitydemo">
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <application
         android:name=".App"
         android:allowBackup="true"
@@ -36,11 +37,13 @@
         <activity
             android:name=".activity.CircleProgressBarActivity"
             android:label="@string/title_activity_circle_progress_bar"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".activity.FlowLayoutActivity"
             android:label="@string/title_activity_circle_progress_bar"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activity.AotoActivity" />
+        <activity android:name=".activity.BallViewActivity"></activity>
     </application>
 
 </manifest>

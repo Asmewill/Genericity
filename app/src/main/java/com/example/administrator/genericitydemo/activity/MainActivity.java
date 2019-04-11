@@ -20,6 +20,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button btn_circle_progress_bar;
     @BindView(R.id.btn_flowlayout)
     Button btn_flowlayout;
+    @BindView(R.id.btn_aoto)
+    Button btn_aoto;
+    @BindView(R.id.btn_ballview)
+    Button btn_ballview;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +40,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_realm.setOnClickListener(this);
         btn_circle_progress_bar.setOnClickListener(this);
         btn_flowlayout.setOnClickListener(this);
+        btn_aoto.setOnClickListener(this);
+        btn_ballview.setOnClickListener(this);
+
     }
 
     @Override
@@ -58,6 +65,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_flowlayout:
                 startActivity(new Intent(this,FlowLayoutActivity.class));
+                break;
+            case R.id.btn_aoto:
+                startActivity(new Intent(this,AotoActivity.class));
+                break;
+            case R.id.btn_ballview:
+                startActivity(new Intent(this,BallViewActivity.class));
                 break;
         }
 

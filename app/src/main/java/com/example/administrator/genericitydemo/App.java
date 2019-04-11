@@ -2,6 +2,8 @@ package com.example.administrator.genericitydemo;
 
 import android.app.Application;
 
+import com.blankj.utilcode.util.Utils;
+
 import io.realm.Realm;
 
 /**
@@ -12,6 +14,7 @@ public class App extends Application {
     public void onCreate() {
         super.onCreate();
         Realm.init(this);
+        Utils.init(this);
 
     }
 }

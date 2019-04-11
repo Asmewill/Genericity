@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    >
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.example.administrator.genericitydemo.view.MyCardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="#5ED6FF"
+                android:orientation="horizontal"
+                android:padding="20dp"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="￥2.3"
+                    android:textColor="#ffffff"
+                    android:textSize="30dp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="#888888" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="分享红包"
+                        android:textColor="#90000000"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="· 满18元可用"
+                        android:textColor="#80000000"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="· 限尾号3235手机号可用"
+                        android:textColor="#80000000"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="· 2016-08-29 - 2016-08-31"
+                        android:textColor="#80000000"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </com.example.administrator.genericitydemo.view.MyCardView>
+            <!--https://blog.51cto.com/ticktick/1540134-->
+            <!--如果CustomView是ViewGrop时，
+                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                根据子View的大小决定
+                -->
+            <com.example.administrator.genericitydemo.view.CustomView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"/>
+
+            <com.example.administrator.genericitydemo.view.MyPolygonView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:background="@color/colorPrimary"
+                />
+
+        
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+
+
+</LinearLayout>

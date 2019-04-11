@@ -47,6 +47,21 @@
         android:layout_height="50dp"
         android:textAllCaps="false"
         android:text="FlowLayoutDemo"/>
+
+    <Button
+        android:id="@+id/btn_aoto"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textAllCaps="false"
+        android:text="电子彩票凹凸效果和
+        onMeassure方法原理"/>
+
+    <Button
+        android:id="@+id/btn_ballview"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textAllCaps="false"
+        android:text="可以跟谁手指滑动的小球"/>
 </LinearLayout>
 
 
