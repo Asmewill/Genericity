@@ -6,19 +6,36 @@ import java.io.FileInputStream;
 import java.io.InputStreamReader;
 
 /**
+ * https://www.cnblogs.com/hellojava/p/3615502.html
  * Created by Administrator on 2018/11/10
  */
 public class MainTest {
     public static void main(String[] args){
-        int threadCount = 50;
-        for (int i = 0; i < threadCount; i++) {
-            new Thread() {
-                @Override
-                public void run() {
-                    System.out.println(SingleTon.getInstance());
-                }
-            }.start();
-        }
+//        int threadCount = 50;
+//        for (int i = 0; i < threadCount; i++) {
+//            new Thread() {
+//                @Override
+//                public void run() {
+//                    System.out.println(SingleTon.getInstance());
+//                }
+//            }.start();
+//        }
+        //枚举单例
+        //　系统内存中该类只存在一个对象，节省了系统资源，对于一些需要频繁创建销毁的对象，使用单例模式可以提高系统性能。
+        SingleTonSix singleTonSix1=SingleTonSix.Instance;
+        singleTonSix1.print();
+        SingleTonSix singleTonSix2=SingleTonSix.Instance;
+        singleTonSix2.print();
+        SingleTonSix singleTonSix3=SingleTonSix.Instance;
+        singleTonSix3.print();
+        SingleTonSix singleTonSix4=SingleTonSix.Instance;
+        singleTonSix4.print();
+
+
+        SingleTonSeven singleTonSeven=SingleTonSeven.getInstance();
+
+
+
     }
 
     public void testInputStreamReader() throws Exception {
