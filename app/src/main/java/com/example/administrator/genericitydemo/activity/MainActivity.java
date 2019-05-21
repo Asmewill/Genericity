@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button btn_aoto;
     @BindView(R.id.btn_ballview)
     Button btn_ballview;
+    @BindView(R.id.btn_kotlin)
+    Button btn_kotlin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,7 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_flowlayout.setOnClickListener(this);
         btn_aoto.setOnClickListener(this);
         btn_ballview.setOnClickListener(this);
-
+        btn_kotlin.setOnClickListener(this);
     }
 
     @Override
@@ -71,6 +73,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_ballview:
                 startActivity(new Intent(this,BallViewActivity.class));
+                break;
+            case R.id.btn_kotlin:
+                startActivity(new Intent(this,KotlinTestActivity.class));
                 break;
         }
 

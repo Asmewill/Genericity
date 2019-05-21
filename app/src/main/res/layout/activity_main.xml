@@ -62,6 +62,13 @@
         android:layout_height="50dp"
         android:textAllCaps="false"
         android:text="可以跟谁手指滑动的小球"/>
+
+    <Button
+        android:id="@+id/btn_kotlin"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textAllCaps="false"
+        android:text="kotlin代码练习站"/>
 </LinearLayout>
 
 
