@@ -1,75 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".activity.MainActivity"
-    android:gravity="center">
-    <Button
-        android:id="@+id/btn_service"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:gravity="center"
-        android:text="ServiceDemo"
-        android:textAllCaps="false"
-        />
-    <Button
-        android:id="@+id/btn_xml"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:textAllCaps="false"
-        android:text="Xml解析demo"/>
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".activity.MainActivity"
+            android:gravity="center">
+            <Button
+                android:id="@+id/btn_service"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="ServiceDemo"
+                android:textAllCaps="false"
+                />
+            <Button
+                android:id="@+id/btn_xml"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:textAllCaps="false"
+                android:text="Xml解析demo"/>
 
-    <Button
-        android:id="@+id/btn_sqlite"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:textAllCaps="false"
-        android:text="SQLite使用Demo"/>
+            <Button
+                android:id="@+id/btn_sqlite"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:textAllCaps="false"
+                android:text="SQLite使用Demo"/>
 
-    <Button
-        android:id="@+id/btn_realm"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:textAllCaps="false"
-        android:text="Realm使用Demo"/>
-    <Button
-    android:id="@+id/btn_circle_progress_bar"
-    android:layout_width="wrap_content"
-    android:layout_height="50dp"
-    android:textAllCaps="false"
-    android:text="CircleProgressBar使用Demo"/>
-    <Button
-        android:id="@+id/btn_flowlayout"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:textAllCaps="false"
-        android:text="FlowLayoutDemo"/>
+            <Button
+                android:id="@+id/btn_realm"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:textAllCaps="false"
+                android:text="Realm使用Demo"/>
+            <Button
+                android:id="@+id/btn_circle_progress_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:textAllCaps="false"
+                android:text="CircleProgressBar使用Demo"/>
+            <Button
+                android:id="@+id/btn_flowlayout"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:textAllCaps="false"
+                android:text="FlowLayoutDemo"/>
 
-    <Button
-        android:id="@+id/btn_aoto"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:textAllCaps="false"
-        android:text="电子彩票凹凸效果和
+            <Button
+                android:id="@+id/btn_aoto"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:textAllCaps="false"
+                android:text="电子彩票凹凸效果和
         onMeassure方法原理"/>
 
-    <Button
-        android:id="@+id/btn_ballview"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:textAllCaps="false"
-        android:text="可以跟谁手指滑动的小球"/>
+            <Button
+                android:id="@+id/btn_ballview"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:textAllCaps="false"
+                android:text="可以跟谁手指滑动的小球"/>
 
-    <Button
-        android:id="@+id/btn_kotlin"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:textAllCaps="false"
-        android:text="kotlin代码练习站"/>
-</LinearLayout>
+            <Button
+                android:id="@+id/btn_kotlin"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:textAllCaps="false"
+                android:text="kotlin代码练习站"/>
+        </LinearLayout>
+        <com.example.administrator.genericitydemo.view.DraggableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/iv_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher_background"
+                android:layout_centerInParent="true"/>
+
+        </com.example.administrator.genericitydemo.view.DraggableLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
 
 
 

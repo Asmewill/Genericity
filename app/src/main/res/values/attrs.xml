@@ -17,5 +17,15 @@
         <attr name="ivBackgroundSrc" format="integer|reference" />
         <attr name="ballName" format="string" />
     </declare-styleable>
+    <declare-styleable name="DraggableLayout">
+        <attr name="showPercent" format="float" />
+        <attr name="isVertical" format="boolean" />
+        <attr name="direction">
+            <enum name="none" value="0" />
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+            <enum name="all" value="3" />
+        </attr>
+    </declare-styleable>
 
 </resources>
